@@ -84,16 +84,16 @@ std::vector<int> bubbleSort(std::vector<int> arr)
 	return arr;
 }
 
-// int linearSearch(const std::vector<int> arr, const size_t num)
-// {
-// 	for (int i = 0; i < arr.size(); ++i) {
-// 		if (arr[i] == num) {
-// 			return i;
-// 		}
-// 	}
+ int linearSearch(const std::vector<int> arr, const size_t num)
+ {
+ 	for (int i = 0; i < arr.size(); ++i) {
+ 		if (arr[i] == num) {
+ 			return i;
+ 		}
+ 	}
 
-// 	return -1;
-// }
+ 	return -1;
+ }
 
 int binaryRecursiveSearch(const std::vector<int> arr, const int num, int beg, int end)
 {
